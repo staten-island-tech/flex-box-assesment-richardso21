@@ -1,0 +1,15 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: lightblue;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: .2rem solid gold;
+}
+
+.box {
+  padding: 1rem;
+  border: .2rem solid red;
+}
+/*# sourceMappingURL=style.css.map */
