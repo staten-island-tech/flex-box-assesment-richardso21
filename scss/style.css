@@ -5,11 +5,12 @@
   background: lightblue;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: .2rem solid gold;
+  border: 5px solid gold;
+  height: 100vh;
 }
 
 .box {
   padding: 1rem;
-  border: .2rem solid red;
+  border: 2px solid red;
 }
 /*# sourceMappingURL=style.css.map */
