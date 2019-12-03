@@ -1,13 +1,14 @@
-.container{
-    display: flex;
-    background: lightblue;
-    justify-content: space-around;
-    border: 5px solid gold;
-    height: 100vh;
-}
+@import 'parts/variables';
+//^^Some variables shared among all .scss
 
-.box{
-    padding: 1rem;
-    border: 2px solid red;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+//import font from google fonts
 
+@import 'parts/container';
+@import 'parts/box';
+//parts of the webpage
+
+body{
+    padding: 0;
+    margin: 0;
+}
