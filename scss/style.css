@@ -3,7 +3,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'lato', sans-serif;
 }
 
@@ -17,6 +17,16 @@
 #box1 {
   background: #00bacf;
   color: #222831;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #box1 h1 {
@@ -44,6 +54,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100vh;
 }
 
 .subbox {
@@ -74,23 +85,25 @@
 #sub2 {
   background: #393E46;
   color: #00ADB5;
-}
-
-#sub2 h1 {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #sub2 a {
-  position: relative;
-  top: 2rem;
-  left: 50%;
-  -webkit-transform: translate(0, 50%);
-          transform: translate(0, 50%);
   background-color: #00bacf;
   border-radius: 0.5rem 1rem;
   border: .1rem solid white;
+  text-decoration: none;
   color: #222831;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-style: italic;
   font-weight: bolder;
   padding: 0.5rem 1.5rem;
