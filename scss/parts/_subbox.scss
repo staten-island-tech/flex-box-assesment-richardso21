@@ -1,0 +1,57 @@
+#box2{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.subbox{
+    flex: 1;
+    box-shadow: $shadow;
+    // border: 2px solid red;
+    padding: 1rem;
+}
+
+#sub1{
+    background: $dark;
+    color: $light;
+    flex: 2;
+}
+
+#sub1 h1{
+    text-align: center;
+}
+
+#sub1 p{
+    font-style: italic;
+}
+
+
+#sub2{
+    background: $depth;
+    color: $secondary;
+}
+
+#sub2 h1{
+    text-align: center;
+}
+
+#sub2 a{
+    position: relative;
+    top: 2rem;
+    left: 50%;
+    // right: -50%;
+    transform: translate(0,50%);
+
+    background-color: $primary;
+    border-radius: 0.5rem 1rem;
+    border: .1rem solid white;
+    color: #222831;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 0.5rem 1.5rem;
+}
