@@ -3,8 +3,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   font-family: 'lato', sans-serif;
+  z-index: 2;
 }
 
 .box {
@@ -54,7 +55,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
 }
 
 .subbox {
@@ -107,6 +107,26 @@
   font-style: italic;
   font-weight: bolder;
   padding: 0.5rem 1.5rem;
+}
+
+#container2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #222831;
+  padding: 3rem 0rem;
+  height: 35vh;
+}
+
+.item-menu {
+  background: #393E46;
+  width: 20%;
+  -webkit-box-shadow: 0rem 0rem 0.8rem black;
+          box-shadow: 0rem 0rem 0.8rem black;
+  z-index: 1;
 }
 
 body {

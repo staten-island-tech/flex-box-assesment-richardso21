@@ -1,0 +1,16 @@
+#container2{
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $dark;
+    padding: 3rem 0rem;
+    height: 35vh;
+}
+
+.item-menu {
+    // position: relative;
+    background: $depth;
+    // padding: 5rem;
+    width: 20%;
+    box-shadow: $shadow;
+    z-index: 1;
+}
