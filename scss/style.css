@@ -127,6 +127,40 @@
   -webkit-box-shadow: 0rem 0rem 0.8rem black;
           box-shadow: 0rem 0rem 0.8rem black;
   z-index: 1;
+  color: #00bacf;
+  text-align: center;
+}
+
+#item2 p {
+  padding: 0 1rem;
+}
+
+#item4 {
+  position: relative;
+}
+
+#overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #00ADB5;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-box-shadow: 0rem 0rem 0.8rem black;
+          box-shadow: 0rem 0rem 0.8rem black;
+}
+
+#item4:hover #overlay {
+  height: 100%;
+}
+
+#text {
+  color: #222831;
+  padding: 1rem;
 }
 
 body {
